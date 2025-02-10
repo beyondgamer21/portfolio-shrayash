@@ -6,20 +6,7 @@ body {
     color: white;
     transition: background 0.5s, color 0.5s;
 }
-.preloader {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    z-index: 1000;
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
-}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -30,19 +17,23 @@ header {
     top: 0;
     z-index: 100;
 }
+
 nav ul {
     list-style: none;
     display: flex;
     gap: 15px;
 }
+
 nav a {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
 }
+
 nav a:hover {
     color: #ff9800;
 }
+
 .section {
     padding: 100px 20px;
     min-height: 100vh;
@@ -51,16 +42,19 @@ nav a:hover {
     justify-content: center;
     text-align: center;
 }
+
 .animated-text {
     font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: bold;
     animation: fadeInUp 2s ease-in-out;
 }
+
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(50px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
 /* Projects Slider */
 .slider-container {
     display: flex;
@@ -71,18 +65,22 @@ nav a:hover {
     max-width: 800px;
     overflow: hidden;
 }
+
 .slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
+
 .slide {
     min-width: 100%;
     transition: opacity 0.5s;
 }
+
 .slide img {
     width: 100%;
     border-radius: 10px;
 }
+
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -93,5 +91,6 @@ nav a:hover {
     cursor: pointer;
     font-size: 24px;
 }
+
 .prev { left: 10px; }
 .next { right: 10px; }
