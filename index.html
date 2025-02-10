@@ -3,56 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Shrayash Kale</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <title>Shrayash Kale - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 <body>
-    <div class="theme-toggle" onclick="toggleTheme()">🌙</div>
-    
+
     <header>
-        <h1 id="signature">Shrayash Kale</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1 class="signature">Shrayash Kale</h1>
+        <button id="theme-toggle">Dark Mode</button>
     </header>
-    
-    <section id="about" class="section"> 
-        <h2>About Me</h2>
-        <p>Creative developer passionate about innovative designs and animations.</p>
+
+    <section id="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Showcasing my skills, experience, and projects.</p>
     </section>
-    
-    <section id="experience" class="section">
+
+    <section id="experience">
         <h2>Experience</h2>
-        <p>Details about work experience and skills.</p>
+        <p>Details about past work and achievements.</p>
     </section>
-    
-    <section id="projects" class="section">
+
+    <section id="projects">
         <h2>Projects</h2>
-        <a href="#" class="project">Project 1</a>
-        <a href="#" class="project">Project 2</a>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Short description of the project.</p>
+            <a href="https://yourprojectlink.com" target="_blank">View Project</a>
+        </div>
     </section>
-    
-    <section id="testimonials" class="section">
+
+    <section id="testimonials">
         <h2>Testimonials</h2>
-        <p>Feedback from clients and colleagues.</p>
+        <p>What others say about me.</p>
     </section>
-    
-    <section id="blog" class="section">
+
+    <section id="blog">
         <h2>Blog</h2>
-        <p>Latest blog posts.</p>
+        <p>Latest insights and articles.</p>
     </section>
-    
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Contact details and form.</p>
-    </section>
+
+    <footer>
+        <p>© 2025 Shrayash Kale. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
