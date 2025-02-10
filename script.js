@@ -1,10 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const preloader = document.querySelector('.preloader');
-    setTimeout(() => {
-        preloader.style.opacity = '0';
-        setTimeout(() => preloader.style.display = 'none', 1000);
-    }, 1500);
-
     // Slider functionality
     const slider = document.querySelector('.slider');
     const slides = document.querySelectorAll('.slide');
